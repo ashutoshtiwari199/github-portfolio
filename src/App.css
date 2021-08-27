@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+html,body{
+  margin: 0%;
+  padding: 0%;
+  /* padding-top: -10%; */
+  /* box-sizing: border-box; */
+  /* overflow: hidden; */
+}
+.profile-pic{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 30vh;
+  border-radius: 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero{
+  width: 100%;
+  /* display: flex;
+  flex-direction: column; */
+  height: 10vh;
+  background-color: rgb(37, 36, 36);
+}
+.git-logo{
+  position: absolute;
+  left: 45%;
+  top: 10%;
+  height: 20%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .heading{
+    text-align: center;
+    color: aliceblue;
+    /* top: 10%; */
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .usertable{
+    position: absolute;
+    top: 60%;
+    /* margin-left: 20%; */
+    align-items: baseline;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .flexeffect{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-around;
   }
-}
+
+  #inputuser{
+    
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    display: block;
+  }
+  #Submit{
+    
+    position: absolute;
+    top: 7%;
+    left: 19%;
+    display: block;
+  }
+
+  .reposrender{
+    /* background-color: red; */
+    top: 85%;
+    width: 100%;
+    /* text-align: center; */
+    position: absolute;
+  }
+
+  .text-center{
+    /* position: absolute; */
+    left: 50%;
+    text-align: center;
+  }
+
+  .repos-link{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .login{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
